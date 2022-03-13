@@ -1,0 +1,100 @@
+<html>
+    <title>
+        Registration Form
+    </title>
+    <style>
+        div {
+          margin-bottom: 20px;
+        }
+        label {
+          display: inline-block;
+          width: 150px;
+        }
+        </style>
+    <body>
+    <h1 style="text-align: center;">Basic Registration Form</h1>
+    <h2>Patient Details</h2>
+    <form id="fname">
+        <label><big> Patient name: </big></label>
+        <input type="text" name="name"></input></br></br>
+        <label><big>Age: </big></label>
+        <input type="text" name="age"></br></br>
+        <label><big> D .O B :  </big></label>
+        <input type="date" name="date"></input></br></br>
+        <label><big> Phone Number:  </big></label>
+        <input type="number" name="Phone"></input></br></br>
+        <label><big> E- MAIL:   </big></label>
+        <input type="text" name="email"></input></br></br>
+        <label><big> Patient Fathers name:   </big></label>
+        <input type="text" name="name"></input></br></br>
+        <label><big> Patient Mothers name:   </big></label>
+        <input type="text" name="name"></input></br></br>
+        <label><big>Sex:</big></label>
+        <input type="radio">Male</input> 
+        <input type="radio">Female</input></br></br>
+        <div>
+          <label><big>  Patient Address :</big></label></br></br>
+          <label><big> Door no:   </big></label>
+        <input type="text" name="doorno"></input></br></br>
+        <label><big> street name:   </big></label>
+        <input type="text" name="street"></input></br></br>
+        <label><big> City:   </big></label>
+        <input type="text" name="city"> </input></br></br>
+        <label><big> state :   </big></label>
+
+        <input type="text" name="state"></input></br></br>
+        </div>
+
+        <p><strong> family history problems cannot be listed please tell your doctor </strong></p>
+        <label><big> Family History:   </big></label>
+        
+         <select name="history">
+            <option value="mom/dad">Mom/Dad history scroll here</option>
+            
+            <option value="diabetes">diabetes</option>
+            <option value="heart problems"> heart problems</option>
+            
+            <option value="nervous weakness">nervous weakness</option>
+            
+            <option value="none of above">None of above</option>
+                </select> </br></br>
+         <label><big> Patient Relative name:   </big></label>
+        <input type="text" name="name"></input></br></br>
+        <label><big> Patient Relative phone number:   </big></label>
+        <input type="number" name="phone"></input></br></br>
+        <p><strong>Any Other Medicine Taken</strong></p>
+        <label><big>Medicine Taken:</big></label>
+        <input type="radio">Yes</input> 
+        <input type="radio">No</input>
+        <p><strong>If yes please mention here:</strong></p>
+        <input type="text" ></input></br></br>
+        <label><big>Medicine Allergy:</big></label>
+        <input type="radio">Yes</input> 
+        <input type="radio">No</input>
+        <p><strong>If yes please mention here:</strong></p>
+        <input type="text" ></input></br></br>
+        <label><big>Any Allergies:</big></label>
+        <input type="radio">Yes</input> 
+        <input type="radio">No</input>
+        <p><strong>If yes please mention here:</strong></p>
+        <input type="text" ></input></br></br>
+
+        <input type="button" value="Submit"></input>
+        <input type="button"  value="Cancel"></input></br></br>
+
+        <label><strong><bold>Mode of payment :</bold></strong></label>
+        <select name="payment">
+            <option value="Pay Here">PayHere</option>
+        <option value="cash" >Cash</option>
+        <option value="card" >Card</option>
+        <option value="upi" >UPI </option>
+      </select>
+      
+      
+        
+
+
+    </form>
+    </body>
+
+</html> 
